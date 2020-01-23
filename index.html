@@ -10,21 +10,25 @@
 </head>
 
 <body>
-  <header>
-    <div class="main">
-      <div class="logo">
-        <div><a href="#">Logo</a></div>
-        <img src="logo.png">
+  <header class="main-header">
+    <div class="header-menu-container">
+      <div class="logo-container">
+       <!-- <img class="logo-img" alt="logo" src="logo.png"> -->
+        <a href="#">Logo</a>
       </div>
-      <ul>
-        <li><a href="#">Home</a></li>
+      <ul class="header-menu">
+        <li class="header-menu-li--active"><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Products</a></li>
-        <li><a href="#">Services</a></li>
+        <li><a href="#">Services
+          <span class="caret"></span>
+        </a></li>
       </ul>
     </div>
+    <div class="search-form">
+      <input class="search-text" type="text">
+      <button class="search-btn" type="button">Search</button>
     </div>
   </header>
- 
 </body>
 </html>
