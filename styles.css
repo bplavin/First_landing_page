@@ -7,6 +7,7 @@
 body {
     font-size: 14px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
 }
 
 ul {
@@ -20,7 +21,7 @@ a {
 .main-header {
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0 174.6px;
     background-color: #222;
 }
 
@@ -105,4 +106,91 @@ a {
     border-top: 4px solid\9;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
+}
+.First-paragraph {
+    display: block;
+    box-sizing: border-box;
+    font-size:14px;
+    height:294px;
+    line-height:20px;
+    padding-bottom:48px;
+    padding-top:48px;
+    color: rgb(173, 255, 47);
+    background-color: rgb(154, 205, 50);
+}
+.First-box{
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 174.6px;
+    margin-right: 174.6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(173, 255, 47);
+    background-color: rgb(154, 205, 50);
+}
+h1 {
+    margin-block-end: 10px;
+    margin-block-start: 20px;
+    line-height: 69.3px;
+    font-size: 63px;
+    height: 74.4px;
+    margin: 20px 0px 10px 0px;
+    color: rgb(173, 255, 47);
+    font-family: inherit;
+    font-weight: 500;
+}
+p{
+    font-size: 21px;
+    color: rgb(173, 255, 47);
+    margin-bottom: 15px;
+}
+.search-btn2 {
+    height: 34px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: #fff;
+    font: inherit;
+    border: 1px solid #ccc;
+}
+.search-form2 {
+    margin-block-end: 15px;
+    margin-bottom: 15px;
+}
+.column1 {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    height: 159.2px;
+    width: 1170px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(149, 149, 149);
+}
+.header1 {
+    font-weight: 500;
+    font-size: 36px;
+    width: 1140px;
+    line-height: 39.6px;
+    margin: 40px 174.6px 20px;
+    border-bottom: 1px;
+    padding-bottom: 9px;
+    border-bottom-color:rgb(238, 238, 238);
+    border-bottom-style:solid;
+    color: rgb(0, 0, 0);
+}
+small{
+    display: inline;
+    font-size: 23.4px;
+    line-height: 23.4px;
+    color: rgb(119, 119, 119);
+}
+.p1{
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    width: 1140px;
+    margin: 0px 174.6px 0px;
+    color: rgb(149, 149, 149);
 }
