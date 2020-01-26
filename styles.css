@@ -156,26 +156,13 @@ p{
     margin-block-end: 15px;
     margin-bottom: 15px;
 }
-.column1 {
-    display: block;
-    box-sizing: border-box;
-    position: relative;
-    height: 159.2px;
-    width: 1170px;
-    font-size: 14px;
-    line-height: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    color: rgb(149, 149, 149);
-}
 .header1 {
-    font-weight: 500;
     font-size: 36px;
     width: 1140px;
     line-height: 39.6px;
     margin: 40px 174.6px 20px;
     border-bottom: 1px;
-    padding-bottom: 9px;
+    padding: 30px 0px 0px 0px;
     border-bottom-color:rgb(238, 238, 238);
     border-bottom-style:solid;
     color: rgb(0, 0, 0);
@@ -187,10 +174,33 @@ small{
     color: rgb(119, 119, 119);
 }
 .p1{
-    display: block;
     font-size: 14px;
     line-height: 20px;
     width: 1140px;
     margin: 0px 174.6px 0px;
     color: rgb(149, 149, 149);
+}
+img {
+    height: 300px;
+    width: 360px;
+    padding: 12.5px 30px 0px 0px;
+    border-radius: 6px 6px;
+}
+.Images {
+    display: block;
+    margin: 0px 0px 0px 174.6px;
+}
+.Colontitles{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 174.6px;
+    font-size: 24px;
+    justify-content: space-between;
+}
+a{
+    color: rgb(51, 122, 183);
+    padding-right: 160px;
+}
+a.a1 :hover{
+color: rgb(51, 122, 183);
 }
