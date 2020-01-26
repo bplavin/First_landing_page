@@ -107,7 +107,7 @@ a {
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
 }
-.First-paragraph {
+.first-paragraph {
     display: block;
     box-sizing: border-box;
     font-size:14px;
@@ -118,7 +118,7 @@ a {
     color: rgb(173, 255, 47);
     background-color: rgb(154, 205, 50);
 }
-.First-box{
+.first-box{
     font-size: 14px;
     line-height: 20px;
     margin-left: 174.6px;
@@ -139,7 +139,7 @@ h1 {
     font-family: inherit;
     font-weight: 500;
 }
-p{
+.engagement-paragrapg{
     font-size: 21px;
     color: rgb(173, 255, 47);
     margin-bottom: 15px;
@@ -156,7 +156,7 @@ p{
     margin-block-end: 15px;
     margin-bottom: 15px;
 }
-.header1 {
+.superior-header {
     font-size: 36px;
     width: 1140px;
     line-height: 39.6px;
@@ -167,40 +167,42 @@ p{
     border-bottom-style:solid;
     color: rgb(0, 0, 0);
 }
-small{
+span{
     display: inline;
     font-size: 23.4px;
     line-height: 23.4px;
     color: rgb(119, 119, 119);
 }
-.p1{
+.paragraph-container{
     font-size: 14px;
     line-height: 20px;
     width: 1140px;
     margin: 0px 174.6px 0px;
     color: rgb(149, 149, 149);
 }
-img {
-    height: 300px;
-    width: 360px;
-    padding: 12.5px 30px 0px 0px;
-    border-radius: 6px 6px;
+.variants-container{
+    display: flex;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 0px 174.6px;
 }
-.Images {
-    display: block;
-    margin: 0px 0px 0px 174.6px;
+.variants-block{
+    padding-top: 10px;
+    font-size: 14px;
+    width: 390px;
+    line-height: 20px;
 }
-.Colontitles{
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 174.6px;
+/* Нужно поменять h2, а не variants-header*/
+.variants-header{
     font-size: 24px;
-    justify-content: space-between;
+    line-height: 26.4px;
+    margin: 20px 0px 10px;
+    color:rgb(51, 122, 183);
 }
-a{
-    color: rgb(51, 122, 183);
-    padding-right: 160px;
-}
-a.a1 :hover{
-color: rgb(51, 122, 183);
+.fluid-image{
+    width: 360px;
+    height: 300px;
+    border: 1px;
+    border-radius: 6px;
+    border-color: rgb(51, 122, 183);
 }
