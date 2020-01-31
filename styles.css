@@ -16,10 +16,12 @@ ul {
 
 a {
     text-decoration: unset;
+    color:rgb(51, 122, 183);
 }
 
 .main-header {
     display: flex;
+    height: 50px;
     justify-content: space-between;
     padding: 0 174.6px;
     background-color: #222;
@@ -44,6 +46,7 @@ a {
 
 .logo-img {
     width: 18px;
+    height: 20.8px;
 }
 
 .header-menu {
@@ -107,39 +110,37 @@ a {
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
 }
-.first-paragraph {
-    display: block;
-    box-sizing: border-box;
+.engagement-header{
+    padding:48px 0px;
     font-size:14px;
     height:294px;
     line-height:20px;
-    padding-bottom:48px;
-    padding-top:48px;
     color: rgb(173, 255, 47);
     background-color: rgb(154, 205, 50);
 }
-.first-box{
+.engagement-box{
+    height: 198px;
+    margin: 0px 174.6px;
+    padding: 0px 15px;
     font-size: 14px;
     line-height: 20px;
-    margin-left: 174.6px;
-    margin-right: 174.6px;
-    padding-left: 15px;
-    padding-right: 15px;
     color: rgb(173, 255, 47);
     background-color: rgb(154, 205, 50);
 }
+.engagement-img{
+    height: 74.4px;
+    width: 63px;
+}
 h1 {
-    margin-block-end: 10px;
-    margin-block-start: 20px;
+    margin: 10px 0px 25px;
     line-height: 69.3px;
     font-size: 63px;
     height: 74.4px;
-    margin: 20px 0px 10px 0px;
     color: rgb(173, 255, 47);
-    font-family: inherit;
     font-weight: 500;
 }
 .engagement-paragrapg{
+    height: 29.6px;
     font-size: 21px;
     color: rgb(173, 255, 47);
     margin-bottom: 15px;
@@ -192,6 +193,7 @@ span{
     padding: 10px 10px 0px 0px;
     font-size: 14px;
     width: 390px;
+    height: 466.4px;
     line-height: 20px;
 }
 a.variants-header{
@@ -212,10 +214,11 @@ h2{
     border-color: rgb(51, 122, 183);
 }
 .variants-paragraph{
+    height: 100px;
+    width: 360px;
     font-size: 14px;
     line-height: 20px;
-    margin-bottom: 10px;
-    margin-block-end: 10px;
+    margin: 0px 0px 10px;
     color:rgb(149, 149, 149);
 }
 .footer-cantainer{
@@ -258,6 +261,7 @@ h3{
     color: black;
 }
 .footer-btn{
+    margin-bottom: 10px;
     padding: 6px 12px;
     line-height: 20px;
     font-size: 14px;
@@ -267,4 +271,26 @@ h3{
     border-radius: 4px;
     border-color: rgb(204, 204, 204);
     background-color: rgb(255, 255, 255);
+}
+.small-print{
+    padding: 30px 0px;
+    height: 120px;
+    width: 1519.2px;
+}
+.small-print-container{
+    height: 60px;
+    width: 1170px;
+    margin: 0px 174.6px;
+    padding: 0px 15px;
+}
+.small-print-paragraph{
+    margin: 0px 0px 10px;
+    color: rgb(149, 149, 149);
+    font-size: 14px;
+    line-height: 20px;
+}
+.small-print-copyright{
+    height: 20px;
+    line-height: 20px;
+    color: rgb(149, 149, 149);
 }
